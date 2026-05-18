@@ -1,0 +1,58 @@
+/* Estilos gerais do corpo da página */
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Título principal */
+h1 {
+    color: #ff0000; /* Vermelho */
+    text-align: center;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    margin: 5px;
+    text-shadow: 5px 5px 5px #FF0000;
+    font-size: 40px;
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    margin: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #e20606;
+    text-align: center;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    margin: 5px;
+    text-shadow: 5px 5px 5px #ff0000;
+    font-size: 30px;
+}
+
+/* Itens da lista com sombra */
+.lista>li {
+    text-shadow: 5px 5px 5px #FFFFFF;
+}
+
+/* Imagens com borda arredondada e sombra */
+img {
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ff0000;
+}
+
+
+/* Seção de filmes com borda arredondada e cor de fundo personalizada */
+#filmes {
+    border-radius: 20px;
+    background-color: rgb(red, green, blue);
+    border-style: solid;
+    border-color: red;
+}
